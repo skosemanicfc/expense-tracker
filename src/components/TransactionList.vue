@@ -3,7 +3,7 @@
 import { defineProps } from 'vue';
 import  type {UserTransaction } from '../types';
 
-const props = defineProps({
+ defineProps({
   transactions:{
     type: Array as () => UserTransaction[],
     required: true

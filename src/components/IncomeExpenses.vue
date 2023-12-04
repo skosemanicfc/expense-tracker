@@ -14,7 +14,7 @@
 <script setup lang="ts">
 import { defineProps } from 'vue'
 
-const props = defineProps({
+defineProps({
   incomes: {
     type: Number,
     required: true
